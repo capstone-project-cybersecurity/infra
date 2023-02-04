@@ -16,12 +16,12 @@ variable "vpc_cidr" {
 
 variable "public_subnet_1_cidr" {
   description = "Public Subnet 1 cidr block"
-  default = ""
+  default     = ""
 }
 
 variable "private_subnet_1_cidr" {
   description = "Private Subnet 1 cidr block"
-  default = ""
+  default     = ""
 }
 
 variable "instance_type" {
@@ -34,5 +34,5 @@ variable "ssh_key" {
 }
 
 variable "install_setup" {
-  default = "/home/danijarvis/github/capstone-project-cybersecurity/automate-scan/infra/scripts/install-setup.sh"
+  default = "/home/danijarvis/github/capstone-project-cybersecurity/infra/terraform/scripts/install-setup.sh"
 }

@@ -60,7 +60,7 @@ function git_clone_compose(){
       sudo git --work-tree=$HOME/automate-scan --git-dir=$HOME/automate-scan/.git pull
     else
       echo "Cloning repository."
-      sudo git clone https://github.com/capstone-project-cybersecurity/automate-scan.git && sudo cp -r /automate-scan/* $HOME
+      sudo git clone https://github.com/capstone-project-cybersecurity/automate-scan.git && sudo cp -r /automate-scan/ $HOME
     fi
 }
 
