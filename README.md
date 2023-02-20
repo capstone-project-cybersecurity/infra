@@ -19,16 +19,16 @@ terraform plan # This is going to get a plan between HCL code v.s AWS resources
 terraform apply # This is going to apply the changes to AWS Cloud. The state that you are doing with terraform into AWS Cloud, is going to store it inside terraform.tfstate, json file with all changes.
 ```
 
-### Flow diagram
+### Flow diagram.
 
 ![Flow diagram](./img/diagram-arquitecture-infra.jpg)
 
-### More information
+### More information.
 
 [What is Terraform?](https://www.freecodecamp.org/news/how-to-use-terraform-to-automate-your-aws-cloud-infrastructure-tutorial/)
 
-### Contributing
+### Contributing.
 We welcome contributions to this project. If you would like to contribute, please fork the repository and create a pull request with your changes.
 
-### License
+### License.
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
