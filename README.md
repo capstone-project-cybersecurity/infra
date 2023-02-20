@@ -1,4 +1,4 @@
-# Infraestructure as Code.
+# Infrastructure as Code.
 This repository contains a tool for automate IaC that is going to run the process of scanning for vulnerabilities in a list of domains.
 
 ### Requirements.
